@@ -1,0 +1,19 @@
+{
+  "name": "project-3_sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass-watch./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poug-Poug/Project-3_SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poug-Poug/Project-3_SASS/issues"
+  },
+  "homepage": "https://github.com/Poug-Poug/Project-3_SASS#readme"
+}
