@@ -1,0 +1,80 @@
+header {
+
+    i {
+    position: absolute;
+    left : 20px;
+    font-size: 20px;
+    top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#main_image {
+    img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+#menu {
+    margin-top: -30px;
+    position: relative;
+    border-radius: 30px 30px 0 0;
+    background-color: #f6f6f6;
+    padding: 15px 15px 80px 15px;
+
+    #title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        font-family: $font-title;
+        font-size: 20px;
+    }
+
+    .statut {
+        font-weight: normal;
+        font-size: 22px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid lightgreen;
+        display: inline;
+    }
+
+    #entree, #plats, #desserts {
+        padding-bottom: 30px;
+    }
+
+    .plats {
+        height: 70px;
+        width: 100%;
+        padding-left: 10px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+        overflow: hidden;
+        box-shadow: $box-shadow;
+        animation: appear 0.5s;
+        animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);
+        transform: scale(0);
+        animation-fill-mode: both;
+
+        .texte_plat {
+            width: 90%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .price {
+            margin-left: 10px;
+        }
+    }
+}

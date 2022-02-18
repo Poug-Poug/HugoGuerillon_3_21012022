@@ -11,76 +11,135 @@
 <body>
     
     <header>
+        <a href="./index.html">
+            <i class="fas fa-arrow-left"></i>
+        </a>
         <img src="./images/logo/ohmyfood.png" alt="Logo ohmyfood" width="200px">
-        <i class="fas fa-arrow-left"></i>
     </header>
 
     <section id="main_image">
         <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="À la francaise" width="300px" height="200px">
     </section>
 
-    <main>
+    <section id="menu">
         <div id="title">
         <h1>À la française</h1>
-        <i class="far fa-heart"></i>
+        <i class="love far fa-heart"></i>
         </div>
-        <h3>ENTRÉES</h3>
-        <div class="plats">
-            <h4>Tartare de poulpe acidulé</h4>
-            <p>Aux zests d'orange</p>
-            <p>25€</p>
+        <section id="entree">
+            <h2 class="statut">ENTRÉES</h2>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Tartare de poulpe acidulé</h3>
+                    <p>Aux zests d'orange</p>
+                </div>
+                <div class="price">
+                    <p>25€</p>
+                </div>
+            </div>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Velouté de légumes d'antan</h3>
+                    <p>Carrote, panais, topinambour</p>
+                </div>  
+                <div class="price">
+                    <p>35€</p>
+                </div>
+            </div>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Soupe à l'oignon</h3>
+                    <p>Revisitée</p>
+                </div>
+                <div class="price">
+                    <p>20€</p>
+                </div>
+            </div> 
+        </section>
+
+        <section id="plats">
+            <h2 class="statut">PLATS</h2>
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Coquilles Saint-Jacques</h3>
+                    <p>Accompagnées d'une purée de panais</p>
+                </div>
+                <div class="price">
+                    <p>40€</p>
+                </div>
+            </div>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Magret de canard</h3>
+                    <p>Et parmentier de pommes de terres</p>
+                </div>
+                <div class="price">
+                    <p>35€</p>
+                </div>
+            </div>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Pigeonneau d'Ille-et-Vilaine</h3>
+                    <p>Sur son lit de gnoicchis aux légumes</p>
+                </div>
+                <div class="price">
+                    <p>44€</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="desserts">
+            <h2 class="statut">DESSERTS</h2>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Pétales de violettes glacés</h3>
+                    <p>Et purée de noisettes</p>
+                </div>
+                <div class="price">
+                    <p>18€</p>
+                </div>
+            </div>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Fondant au chocolat</h3>
+                    <p>Revisitée</p>
+                </div>
+                <div class="price">
+                    <p>22€</p>
+                </div>
+            </div>
+
+            <div class="plats">
+                <div class="texte_plat">
+                    <h3>Millefeuille croustillant</h3>
+                    <p>Myrtilles et pâte d'amande</p>
+                </div>
+                <div class="price">
+                    <p>23€</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="btn">
+            <a href="#">
+                Commander
+            </a>
         </div>
-        <div class="plats">
-            <h4>Velouté de légumes d'antan</h4>
-            <p>Carrote, panais, topinambour</p>
-            <p>35€</p>
-        </div>
-        <div class="plats">
-            <h4>Soupe à l'oignon</h4>
-            <p>Revisitée</p>
-            <p>20€</p>
-        </div>
-        <h3>PLATS</h3>
-        <div class="plats">
-            <h4>Coquilles Saint-Jacques</h4>
-            <p>Accompagnées d'une purée de panais</p>
-            <p>40€</p>
-        </div>
-        <div class="plats">
-            <h4>Magret de canard</h4>
-            <p>Et parmentier de pommes de terres</p>
-            <p>35€</p>
-        </div>
-        <div class="plats">
-            <h4>Pigeonneau d'Ille-et-Vilaine</h4>
-            <p>Sur son lit de gnoicchis aux légumes</p>
-            <p>44€</p>
-        </div>
-        <h3>DESSERTS</h3>
-        <div class="plats">
-            <h4>Pétales de violettes glacés</h4>
-            <p>Et purée de noisettes</p>
-            <p>18€</p>
-        </div>
-        <div class="plats">
-            <h4>Fondant au chocolat</h4>
-            <p>Revisitée</p>
-            <p>22€</p>
-        </div>
-        <div class="plats">
-            <h4>Millefeuille croustillant</h4>
-            <p>Myrtilles et pâte d'amande</p>
-            <p>23€</p>
-        </div>
-        <input type="button" value="Commander">
-    </main>
+    </section>
 
     <footer>
-        <img src="images/logo/ohmyfood.png" alt="Logo ohmyfood" width="100px">
+        <p>ohmyfood</p>
         <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
         <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
         <a href="#">Mentions légales</a>
-        <a href="#">Contact</a>
+        <a href="mailto:hugog28@hotmail.fr">Contact</a>
     </footer>
     
 </body>

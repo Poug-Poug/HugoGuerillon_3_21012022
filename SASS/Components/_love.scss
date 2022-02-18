@@ -1,0 +1,13 @@
+.love{
+    font-size: 20px;
+    color: grey;
+    margin-right: 20px;
+}
+
+.love:hover {
+    animation: love 1s ease-out;
+        background: linear-gradient($secondaire, $primaire);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+}

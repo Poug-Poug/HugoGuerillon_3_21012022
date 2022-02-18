@@ -1,10 +1,13 @@
+@import "./Utils/animations";
 @import "./Utils/variables";
 @import "./Utils/mixins";
+@import "./Components/btn";
+@import "./Components/love";
 @import "./Base/base";
 @import "./Base/font";
 @import "./Layouts/header";
 @import "./Layouts/loader";
-@import "./Components/btn";
+@import "./Layouts/menu";
 @import "./Layouts/footer";
 @import "./Pages/localisation";
 @import "./Pages/infos";
