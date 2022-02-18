@@ -1,0 +1,43 @@
+#fonctionnements {
+    padding : 30px 30px 30px 30px;
+    background-color: #fff;
+
+    h2 {
+        font-family: $font-text;
+        font-weight: bold;
+    }
+}
+
+.fonctionnement {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    margin-bottom: 20px;
+    height: 50px;
+
+    .number {
+        border-radius: 50px;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        background-color: $primaire;
+        color: white;
+        margin-left: -7px;
+    }
+
+    i {
+        color: gray;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.fonctionnement:hover {
+    background-color: #F5EDFF;
+}
+

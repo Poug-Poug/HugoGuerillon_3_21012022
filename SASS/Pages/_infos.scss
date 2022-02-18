@@ -1,0 +1,27 @@
+
+
+#infos {
+    text-align: center;
+    padding : 30px 30px 60px 30px;
+    background-color: #F6F6F6;
+
+    h1 {
+        font-family: $font-text;
+        font-weight: bold;
+    }
+
+    p {
+        color: gray;
+        padding-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+        color: white;
+        background : linear-gradient(170deg,$secondaire, $primaire);
+        box-shadow: $box-shadow;
+    }
+
+}
