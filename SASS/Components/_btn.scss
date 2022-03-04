@@ -7,14 +7,21 @@
         text-decoration: none;
         font-size: 20px;
         padding: 20px 30px 20px 30px;
-        border-radius: 20px;
+        border-radius: 30px;
         color: white;
         background : linear-gradient(170deg,$secondaire, $primaire);
         box-shadow: $box-shadow;
     }
 }
+// bouton + clair en hover (lighten) / Box shadow plus foncé (darken)
 
 .btn:hover {
     transform: scale(1.1);
     transition: all .2s ease-in-out;
+
+    a {
+        background: linear-gradient(170deg,#f98fd9,#a56bed);
+        box-shadow: -3px 3px 5px #8f8f8f;
+    }
 }
+

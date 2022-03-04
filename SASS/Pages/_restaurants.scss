@@ -31,7 +31,7 @@ main {
         font-weight: bold;
         position: absolute;
         top : 0px;
-        left: 80%;
+        right: 15px;
         z-index: 2;
         padding: 10px;
         background-color: #99e2d0;
@@ -56,3 +56,13 @@ main {
         color: gray;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .two_restaurant {
+      display: flex;
+      justify-content: space-between;
+    }
+    .restaurant {
+        width: 45vw;
+    }
+  }

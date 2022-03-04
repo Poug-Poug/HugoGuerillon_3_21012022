@@ -28,7 +28,7 @@ header {
     background-color: #f6f6f6;
     padding: 15px 15px 80px 15px;
 
-    #title {
+    #title_menu_page {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -56,25 +56,105 @@ header {
         background-color: white;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         border-radius: 10px;
         margin-bottom: 15px;
         margin-top: 20px;
         overflow: hidden;
         box-shadow: $box-shadow;
-        animation: appear 0.5s;
+        animation: appear 0.8s;
         animation-timing-function: cubic-bezier(.57,-0.3,.36,1.2);
         transform: scale(0);
         animation-fill-mode: both;
 
-        .texte_plat {
-            width: 90%;
+        .price {
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .texte_plat p, h3{
+            margin: 0;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
+    }
+}
 
-        .price {
-            margin-left: 10px;
+
+.plats:hover {
+
+    .price {
+        padding-right: 50px;
+        transition: 330ms ease-in-out;
+    }
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    background-color: #99E2D0;
+    width: 50px;
+    height: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    padding: 20px;
+    right: -50px;
+    top: 0;
+    opacity: 0;
+    transition: transform 330ms ease-in-out;
+}
+
+.check .fa-check-circle {
+    color: #fff;
+    transition: transform 500ms ease-in-out;
+}
+
+.plats:hover .check {
+    opacity: 1;
+    transform: translate(-50px);
+  }
+
+.plats:hover .fa-check-circle {
+    animation: rotate 1s;
+}
+
+@media screen and (min-width: 1024px) {
+    #all_menu {
+      display: flex;
+      justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #title_menu_page {
+      justify-content: center !important;
+
+        h1 {
+            margin-right: 20px;
+        }
+
+        i {
+            font-size: 30px;
+        }
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .texte_plat {
+        
+        padding-right: 40px;
+
+        h3 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 13px;
         }
     }
+
 }
