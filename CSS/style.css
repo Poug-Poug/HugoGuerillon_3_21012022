@@ -228,8 +228,20 @@ header a {
   margin-right: 15px;
   font-weight: bold;
 }
-#menu .plats .texte_plat p, #menu .plats h3 {
-  margin: 0;
+
+.texte_plat {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.h3_plats {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.p_plats {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
