@@ -138,6 +138,9 @@ header {
       display: flex;
       justify-content: space-around;
     }
+    #entree, #plats, #desserts {
+        width : 30%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
